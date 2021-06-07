@@ -1,0 +1,58 @@
+body {
+    background-image: url("../img/estudio.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.creditos {
+    text-align: center;
+    font-size: 5rem;
+    color: orangered;
+    text-shadow: 2px 2px 2px black;
+    margin-bottom: 3rem;
+}
+
+.instruções {
+    text-align: center;
+    font-size: 3rem;
+    color: orangered;
+    text-shadow: 2px 2px 2px black;
+}
+
+.container-titulo {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    text-align: center;
+    margin-top: 15rem;
+    font-size: 5rem;
+    color: orangered;
+    text-shadow: 2px 2px 2px black;
+}
+
+.container {
+    margin: 0 auto;
+    width: 70%;
+    margin-top: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.botao-tecla {
+    width: 120px;
+    height: 120px;
+    background: rgb(107, 102, 112);
+    box-shadow: 2px 2px 10px black;
+}
+
+.texto-botao {
+    font-family: 'Baloo Tammudu 2', cursive;
+    font-size: 2rem;
+    margin-top: 20px;
+}
